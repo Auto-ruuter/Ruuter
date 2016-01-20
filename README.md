@@ -19,7 +19,7 @@ var router = new ruuter.Router();
 ```
 
 ### Setting Up Routes
-Each Router instance defines basic http methods (GET, POST, PUSH, DELETE, etc.)  to be contained within the main object.
+Each Router instance defines basic HTTP methods (GET, POST, PUSH, DELETE, etc.)  to be contained within the main object.
 
 The following example demonstrates how to create a create a `GET` request to `/test1`:
 ```javascript
@@ -37,13 +37,6 @@ ruuter.headMessage(res, status, Content-Type, Status-Message);
 
 The ruuter headMessage function takes the server response, status code, content type, and status message as arguments. The function takes these arguments and writes the response header and message automatically.
 
-The following example demonstrates proper usage of this function.
-
-```javascript
-var ruuter = require('ruuter');
-var headMessage = ruuter.headMessage(res, 200, 'plain/text', 'Body message')
-```
-
 ### Writing a new file: `.writeFile(path, ext, data, options[,callback])`
 The ruuter writeFile function offers users a variety of options for naming and saving new files.
 
@@ -51,7 +44,7 @@ The following example demonstrates proper use of this function:
 
 ```javascript
 var ruuter = require('ruuter');
-var fileNamer = ruuter.writeFile(path, ext, data, options[,callback]);
+var writeFile = ruuter.writeFile(path, ext, data, options[,callback]);
 ```
 `options` is an object or string with the following defaults:
 

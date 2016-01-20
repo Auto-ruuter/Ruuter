@@ -1,6 +1,6 @@
 {
   "name": "ruuter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A basic framework for creating an HTTP server with routes.  Easily write files and header messages upon requests.",
   "main": "ruuter.js",
   "directories": {
