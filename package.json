@@ -1,6 +1,6 @@
 {
   "name": "ruuter",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A basic framework for creating an HTTP server with routes.  Easily write files and header messages upon requests.",
   "main": "ruuter.js",
   "directories": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Auto-ruuter/Ruuter.git"
   },
-  "author": "",
+  "author": "Jesse Thach, Eugene Troy, Chris Lee, James Mason",
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.4.1",
